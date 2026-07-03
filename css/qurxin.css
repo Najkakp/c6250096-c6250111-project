@@ -1445,7 +1445,150 @@ table .close:hover{
     width: 100%;
   }
 }
+/* ==========================
+   Tablet (992px iyo ka yar)
+========================== */
+@media (max-width: 992px) {
 
+  .about-hero .container,
+  .our-story .container,
+  .mission-vision .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 42px;
+  }
+
+  .story-content h2,
+  .section-title h2 {
+    font-size: 36px;
+  }
+
+  .choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* ==========================
+   Mobile (768px iyo ka yar)
+========================== */
+@media (max-width: 768px) {
+
+  .about-hero,
+  .our-story,
+  .mission-vision,
+  .why-choose {
+    padding: 60px 20px;
+  }
+
+  .about-hero .container,
+  .our-story .container,
+  .mission-vision .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 34px;
+  }
+
+  .story-content h2,
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .about-content p,
+  .story-content p,
+  .section-title p,
+  .mission-card p,
+  .vision-card p,
+  .choose-card p {
+    font-size: 16px;
+  }
+
+  .about-content .btn {
+    padding: 14px 30px;
+  }
+
+  .mission-card,
+  .vision-card {
+    padding: 30px;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .choose-card {
+    padding: 30px;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+}
+
+
+/* ==========================
+   Small Mobile (480px iyo ka yar)
+========================== */
+@media (max-width: 480px) {
+
+  .about-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .story-content h2,
+  .section-title h2,
+  .mission-card h2,
+  .vision-card h2 {
+    font-size: 24px;
+  }
+
+  .about-content p,
+  .story-content p,
+  .section-title p,
+  .mission-card p,
+  .vision-card p,
+  .choose-card p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .about-content .tag,
+  .story-content .tag,
+  .section-title .tag {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .mission-card,
+  .vision-card,
+  .choose-card {
+    padding: 20px;
+  }
+
+  .choose-card h3 {
+    font-size: 20px;
+  }
+
+  .about-content .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+
+}
 /* ===========================
    Mobile
 =========================== */
